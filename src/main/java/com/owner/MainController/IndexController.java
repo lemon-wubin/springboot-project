@@ -21,6 +21,16 @@ public class IndexController {
 
         return "hello world";
     }
+
+    /**
+     * 新增一个名为add的方法
+     *
+     * @return java.lang.String
+     */
+    @GetMapping("/add")
+    public String add(){
+        return "add new method, name of the method is add";
+    }
 }
 
 
