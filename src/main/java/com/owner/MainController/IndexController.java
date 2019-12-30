@@ -31,6 +31,17 @@ public class IndexController {
     public String add(){
         return "add new method, name of the method is add";
     }
+
+    /**
+     * 新增一个名为select的方法
+     *
+     * @return java.lang.String
+     */
+    @GetMapping("/select")
+    public String select(){
+        return "add a select method under the feature branch";
+    }
+
 }
 
 
