@@ -31,6 +31,17 @@ public class IndexController {
     public String add(){
         return "add new method, name of the method is add";
     }
+
+    /**
+     * 创建一个名为update的方法
+     *
+     * @return java.lang.String
+     */
+    @GetMapping("/update")
+    public String update(){
+        return "create a new update method";
+    }
+
 }
 
 
